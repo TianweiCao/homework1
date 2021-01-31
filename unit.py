@@ -24,14 +24,10 @@ def meter2mile(a,b):
   else:
     return "please enter valid input"
  
-def test_c2f():
+def test_right():
     assert c2f("C",1)==33.8
-     
-def test_c2f():
     assert gram2kgram("gram",1000)==1
-
-def test_meter2mile():
     assert meter2mile("mile",1)==1609
-def test_c2f():
+def test_wrong():
     assert gram2kgram("gra",1000)== "please enter valid input" 
         
