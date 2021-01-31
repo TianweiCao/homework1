@@ -1,10 +1,10 @@
 def unit(a,b):
-  if a==1:
+  if a==meter:
     return b/1000
-  elif a==2:
+  elif a==kilometer:
     return b*1000
   else:
     return "shit"   
 def test_unit():
-  assert unit(1,1000)==1
+  assert unit(meter,1000)==1
      
