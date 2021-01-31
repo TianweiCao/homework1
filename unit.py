@@ -16,6 +16,6 @@ def C2F(a,b):
 
   def test_gram2kgram():
     assert gram2kgram("gram",1000)==1
-  def test_C2F()
+  def test_C2F():
     assert C2F("C",1)==33.8
      
