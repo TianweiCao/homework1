@@ -14,6 +14,14 @@ def c2f(a,b):
     return b*33.8
   else:
     return "please enter valid input"
+  
+ def meter2mile(a,b):
+  if a=="meter":
+    return b/1609
+  elif a=="mile":
+    return b*1609
+  else:
+    return "please enter valid input"
  
 def test_c2f():
     assert c2f("C",1)==33.8
