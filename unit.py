@@ -18,15 +18,15 @@ def c2f(a,b):
   
 def meter2mile(a,b):
   if a=="meter":
-    return b/1609 #missed
+    return round(b/1609,2) 
   elif a=="mile":
-    return b*1609
+    return round(b*1609,2)
   else:
-    return "please enter valid input" #missed
+    return "please enter valid input" 
   
 def meter2feet(a,b):
   if a=="meter":
-    return b*3.2
+    return round(b*3.2,2)
   elif a=="feet": #missed
     return b/3.2
   else:
@@ -34,9 +34,9 @@ def meter2feet(a,b):
 
 def meter2inch(a,b):
   if a=="meter":
-    return b*39.4 #missed
+    return round(b*39.4,2) #missed
   elif a=="inch":
-    return b/39.4
+    return round(b/39.4,2)
   else:
     return "please enter valid input"
 
