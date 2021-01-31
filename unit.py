@@ -23,6 +23,7 @@ def meter2mile(a,b):
     return b*1609
   else:
     return "please enter valid input"
+  
 def meter2feet(a,b):
   if a=="meter":
     return b*3.2
@@ -31,7 +32,7 @@ def meter2feet(a,b):
   else:
     return "please enter valid input"
 
- def meter2inch(a,b):
+def meter2inch(a,b):
   if a=="meter":
     return b*39.4
   elif a=="inch":
