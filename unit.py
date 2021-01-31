@@ -1,7 +1,7 @@
 def unit(a,b):
-  if a==meter:
+  if a=="meter":
     return b/1000
-  elif a==kilometer:
+  elif a=="kilometer":
     return b*1000
   else:
     return "shit"   
