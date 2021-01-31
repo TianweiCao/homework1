@@ -46,7 +46,7 @@ def test_right():
     assert gram2kgram("gram",100)==0.1
     assert c2f("F",1)==0.03
     assert c2f("C",1)==33.8
-    assert meter2mile('meter",1)==0.001
+    assert meter2mile("meter",1)==0.001
     assert meter2mile("mile",1)==1609
     assert meter2feet("feet",1)==0.31
     assert meter2feet("meter",1)==3.2
