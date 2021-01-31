@@ -1,5 +1,6 @@
 def gram2kgram(a,b):
   if a=="gram":
+    int(b)
     return str<b/1000>+"kgram"
   elif a=="kgram":
     int(b)
