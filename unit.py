@@ -27,7 +27,7 @@ def test_c2f():
     assert c2f("C",1)==33.8
      
 def test_c2f():
-    assert gram2kgram("gram",1000)==1+"kgram"
+    assert gram2kgram("gram",1000)==1,"kgram"
 
 def test_meter2mile():
     assert meter2mile("mile",1)==1609
