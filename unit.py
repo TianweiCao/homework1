@@ -1,9 +1,9 @@
-def gram2kgram(a,b,c):
-  if a=="gram"and c=="kgram":
+def gram2kgram(a,b):
+  if a=="gram":
    
-    return b/1000,c
-  elif a=="kgram"and c=="gram":
-    return b*1000,c
+    return b/1000
+  elif a=="kgram":
+    return b*1000
   else:
     return "please enter valid input"   
   
@@ -28,7 +28,7 @@ def test_c2f():
     assert c2f("C",1)==33.8
      
 def test_c2f():
-    assert gram2kgram("gram",1000,"kgram")==1,"kgram"
+    assert gram2kgram("gram",1000)==1
 
 def test_meter2mile():
     assert meter2mile("mile",1)==1609
