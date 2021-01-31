@@ -26,7 +26,7 @@ def meter2mile(a,b):
  
 def test_right():
     assert c2f("C",1)==33.8
-    assert gram2kgram("gram",1000)==1+"kgram"
+    assert gram2kgram("gram",1000)==str(1)+"kgram"
     assert meter2mile("mile",1)==1609
 def test_wrong():
     assert gram2kgram("gra",1000)== "please enter valid input" 
