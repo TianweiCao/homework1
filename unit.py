@@ -10,9 +10,9 @@ def gram2kgram(a,b):
 
 def c2f(a,b):
   if a=="F":
-    return b/33.8 #missed
+    return round(b/33.8,2) 
   elif a=="C":
-    return b*33.8
+    return round(b*33.8,2)
   else:
     return "please enter valid input" #missed
   
