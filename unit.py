@@ -15,7 +15,7 @@ def c2f(a,b):
   else:
     return "please enter valid input"
   
- def meter2mile(a,b):
+def meter2mile(a,b):
   if a=="meter":
     return b/1609
   elif a=="mile":
@@ -28,4 +28,7 @@ def test_c2f():
      
 def test_c2f():
     assert gram2kgram("gram",1000)==1
-     
+
+def test_meter2mile():
+    assert meter2mile("mile",1)==1609
+        
