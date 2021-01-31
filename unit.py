@@ -6,5 +6,5 @@ def unit(a,b):
   else:
     return "shit"   
 def test_unit():
-  assert unit(meter,1000)==1
+  assert unit("meter",1000)==1
      
