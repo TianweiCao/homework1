@@ -40,4 +40,4 @@ jobs:
         coverage run -m pytest unit.py
     - name: Show coverage report
       run: |
-        coverager report -m
+        coverage report -m
