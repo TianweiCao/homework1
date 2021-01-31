@@ -1,7 +1,7 @@
 def unit(a,b):
-  if a=1
+  if a==1
     return b/1000
-  eif a=2
+  eif a==2
     return b*1000
   else
     return "shit"   
