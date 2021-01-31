@@ -32,4 +32,6 @@ def test_c2f():
 
 def test_meter2mile():
     assert meter2mile("mile",1)==1609
+def test_c2f():
+    assert gram2kgram("gra",1000)== "please enter valid input" 
         
