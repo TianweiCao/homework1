@@ -15,7 +15,7 @@ def C2F(a,b):
     return "please enter valid input"
 
   def test_gram2kgram():
-  assert gram2kgram("gram",1000)==1
+    assert gram2kgram("gram",1000)==1
   def test_C2F()
-  assert C2F("C",1)==33.8
+    assert C2F("C",1)==33.8
      
