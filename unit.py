@@ -42,7 +42,7 @@ def meter2inch(a,b):
 
  
 def test_right():
-    assert gram2kgram("gram",1000)==1
+    assert gram2kgram("kgram",1)==1000
     assert gram2kgram("gram",100)==0.1
     assert c2f("F",1)==0.03
     assert c2f("C",1)==33.8
