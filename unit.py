@@ -14,8 +14,7 @@ def c2f(a,b):
     return b*33.8
   else:
     return "please enter valid input"
-  
-sudo pip install -U pytest
+ 
 def test_c2f():
     assert c2f("C",1)==33.8
      
