@@ -1,8 +1,8 @@
 def gram2kgram(a,b):
   if a=="gram":
-    return str<int(b/1000)>+"kgram"
+    return b/1000,"kgram"
   elif a=="kgram":
-    return str<int(b*1000)>+"gram"
+    return b*1000,"gram"
   else:
     return "please enter valid input"   
   
